@@ -1,13 +1,13 @@
-# 📄 Resume Analyzer API (Pure NLP Project)
+# Resume Analyzer API (Pure NLP Project)
 
-A **Resume vs Job Description Analyzer** built using **classical NLP techniques** (spaCy + sentence-transformers).
+A **Resume vs Job Description Analyzer** built using **classical NLP techniques** (NLTK + spaCy + sentence-transformers).
 This project performs **skill extraction, experience parsing, semantic matching, and candidate fit analysis** — **without using any LLMs**.
 
-> 🎯 Built as a **practice + portfolio project** to demonstrate NLP, backend, and ATS-style logic.
+> Built as a **practice project** to demonstrate NLP, backend, and ATS-style logic.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Upload Resume (PDF) and Job Description (TXT)
 - Text preprocessing (cleaning, tokenization, lemmatization, POS tagging)
@@ -22,21 +22,23 @@ This project performs **skill extraction, experience parsing, semantic matching,
 
 ---
 
-## 🧠 Tech Stack (No LLMs)
+## Tech Stack (No LLMs)
 
 - Python
 - FastAPI
+- Pydantic
+- NLTK
 - spaCy
 - Sentence Transformers (MiniLM)
 - Regex
 - Pure NLP + rule-based logic
 
-> ❌ No GPT / LLM / Generative AI  
-> ✅ Fully explainable & deterministic NLP pipeline
+> No GPT / Gemini / LLM / Generative AI  
+> Fully explainable & deterministic NLP pipeline
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 resume-analyzer/
@@ -62,9 +64,9 @@ resume-analyzer/
 
 ---
 
-## ⚙️ How to Run This Project
+## How to Run This Project
 
-### 1️⃣ Create Virtual Environment
+### 1. Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -72,25 +74,25 @@ source venv/bin/activate   # macOS / Linux
 venv\Scripts\activate    # Windows
 ```
 
-### 2️⃣ Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Download spaCy Model
+### 3. Download spaCy Model
 
 ```bash
 python -m spacy download en_core_web_sm
 ```
 
-### 4️⃣ Setup NLP Models
+### 4. Setup NLP Models
 
 ```bash
 python setup_nlp.py
 ```
 
-### 5️⃣ Run the Server
+### 5. Run the Server
 
 ```bash
 uvicorn app:app --reload
@@ -98,14 +100,14 @@ uvicorn app:app --reload
 
 ---
 
-## 🌐 API Access
+## API Access
 
 - Base URL: http://127.0.0.1:8000
 - Swagger UI: http://127.0.0.1:8000/docs
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Upload
 - POST `/upload/resume`
@@ -129,7 +131,7 @@ uvicorn app:app --reload
 
 ---
 
-## 📊 Sample Feedback Output
+## Sample Feedback Output
 
 ```json
 {
@@ -147,7 +149,7 @@ uvicorn app:app --reload
 
 ---
 
-## 🎯 Why This Project Is Valuable
+## Why This Project Is Valuable
 
 - Demonstrates core NLP fundamentals
 - Mimics real ATS resume screening
@@ -157,17 +159,7 @@ uvicorn app:app --reload
 
 ---
 
-## 🔮 Future Enhancements
+## Author
 
-- Resume scoring system
-- Role-based skill weighting
-- Resume ranking
-- Visualization dashboard
-- Unit tests
-
----
-
-## 👨‍💻 Author
-
-Built as a learning and portfolio project to showcase  
+Built as a learning project to showcase  
 **NLP • Backend • System Design • ATS Logic**
