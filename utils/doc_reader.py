@@ -12,4 +12,3 @@ class DocLoader:
         loader = TextLoader(jd_file_path)
         pages = loader.load()
         return " ".join([page.page_content for page in pages])
-        
