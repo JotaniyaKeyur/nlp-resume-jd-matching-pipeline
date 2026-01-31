@@ -1,0 +1,35 @@
+About the job
+We are seeking a Mid-Level AI/ML Engineer to join our client’s AI team and contribute to the development of cutting-edge intelligent systems. In this role, you’ll be responsible for designing, training, and deploying machine learning models that power innovative features across devices and services. This is an exciting opportunity to work with a global technology leader in the telecommunications sector, applying your expertise to real-world applications that impact millions of users.
+
+Responsibilities 
+Build, train, and maintain systems based on machine learning and natural language processing.
+Write machine learning algorithms based on transformers.
+Conduct experiments, evaluate model performance, and suggest improvements.
+Prepare quick scripts to automate tasks such as metric generation, file conversions, etc., when necessary.
+Collaborate with senior engineers to implement production-ready AI solutions.
+
+Required Qualifications 
+Bachelor’s or Master’s degree in Computer Science, Data Science, Artificial Intelligence, or related field.
+5+ years of experience in developing and deploying machine learning models.
+Experience with deep learning and statistical learning in Natural Language Processing (NLP).
+Familiarity with text processing libraries.
+Hands-on experience with LLM models, prompting libraries, and fine-tuning.
+Programming and ML Frameworks
+Python
+TensorFlow
+PyTorch
+scikit-learn
+XGBoost / LightGBM (common in practical ML pipelines)
+NumPy, Pandas
+Jupyter Notebooks
+Data preprocessing & feature engineering tools
+Version Control & CI/CD
+Git / GitHub / GitLab
+Jenkins
+Development & Experimentation Tools
+TensorBoard
+Weights & Biases (W&B) or Neptune.ai
+ONNX (optional but common for deployment/optimization)
+
+Other Useful Skills (common for telecom/edge AI)
+Experience with edge AI model optimization (TensorRT, CoreML, TFLite)
